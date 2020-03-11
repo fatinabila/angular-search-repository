@@ -1,0 +1,52 @@
+.h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+}
+
+.section-padding {
+    padding:35px 0px;
+}
+
+.section-padding.first {
+    padding:10% 0px 0px 0px;
+}
+
+.form-control {
+    height: 60px;
+}
+
+.input-group {
+    max-width: 700px;
+    margin: auto;
+}
+
+.input-group-append {
+    width:100px;
+}
+
+.input-group-append > button {
+    width: 100%;
+    background-color: #F8DE6A;
+    border: solid 1px #F8DE6A;
+    color: #000;
+    font-family: 'Roboto Slab', serif;
+    box-shadow: 0 0 15px 1px rgba(93, 93, 93, 0.27);
+    border: solid 0px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+} 
+
+
+.form-shadow {
+    box-shadow: 0 0 15px 1px rgba(93, 93, 93, 0.27);
+    border: solid 0px;
+}
+
+.form-shadow > input {
+    border: solid 0px;
+    font-family: 'Lato', sans-serif;
+}

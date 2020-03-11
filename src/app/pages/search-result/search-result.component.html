@@ -1,0 +1,20 @@
+<section class="container first">
+    <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+        <div class="input-group form-shadow  mb-3">
+    
+          <input type="text" class="form-control" placeholder="Enter Keyword" ngModel name="keyword">
+          <div class="input-group-append">
+            <button class="btn btn-outline-secondary"  type="submit">Search</button>
+          </div>
+    
+        </div>
+      </form>
+</section>
+
+<section  class="container">
+   <h3>  {{total_result}} repository results</h3>
+
+   <hr>
+
+
+</section>
